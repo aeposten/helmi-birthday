@@ -1,0 +1,115 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@400;700&family=Yanone+Kaffeesatz:wght@400;700&display=swap");
+
+body {
+  background-color: #f2af88;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#hero, #fav-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero {
+  margin: 0;
+  padding: 0;
+  height: 30vh;
+  background-image: url("images/helmi-cake.jpeg");
+  background-size: 100% 100%;
+  border-bottom: 10px solid #590202;
+}
+
+#fav-img {
+  background-image: url("images/helmi-flamingo.jpeg");
+  height: 20vh;
+  background-size: 100% 100%;
+  border-top: 10px solid #590202;
+  border-bottom: 10px solid #590202;
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: #260502;
+  text-shadow: 0 0 2px #f2af88;
+}
+
+h3,
+h4 {
+  color: #260502;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.title {
+  font-family: "Lobster", cursive;
+  color: #f2af88;
+}
+
+.memory {
+  width: 30%;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid #590202;
+  border-radius: 12px;
+}
+
+.memory-img {
+  width: 200px;
+}
+
+.memory-text {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.sub-heading {
+  text-align: center;
+}
+
+#memories {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+#flamingo-caption {
+  text-shadow: 0 0 4px #f2af88;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  background-color: #590202;
+  color: #f2af88;
+  padding: 20px;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.round-img {
+    width: 200px;
+    height:200px;
+    border-radius: 100%;
+    border:6px solid #590202;
+}
+
+#fav-images {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
